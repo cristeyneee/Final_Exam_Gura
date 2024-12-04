@@ -1,0 +1,3 @@
+enterprise_service: apache2  # Options: apache2 (Debian), httpd (CentOS)
+monitoring_tool: prometheus  # Options: prometheus
+motd_message: "Ansible Managed by cristine"

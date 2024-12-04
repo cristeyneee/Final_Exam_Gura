@@ -1,0 +1,12 @@
+---
+- name: Configure servers with enterprise service and monitoring
+  hosts: all
+  become: true
+
+  vars_files:
+    - config.yaml
+
+  roles:
+    - role: common
+    - role: enterprise_service
+    - role: monitoring
